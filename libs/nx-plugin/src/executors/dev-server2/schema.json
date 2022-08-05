@@ -1,0 +1,9 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "cli": "nx",
+  "title": "DevServer2 executor",
+  "description": "",
+  "type": "object",
+  "properties": {},
+  "required": []
+}

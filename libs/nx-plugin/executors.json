@@ -1,0 +1,20 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "executors": {
+    "dev-server2-executor": {
+      "implementation": "./src/executors/dev-server2/executor",
+      "schema": "./src/executors/dev-server2/schema.json",
+      "description": "dev-server2 executor"
+    },
+    "dev-server-executor": {
+      "implementation": "./src/executors/dev-server/executor",
+      "schema": "./src/executors/dev-server/schema.json",
+      "description": "dev-server executor"
+    },
+    "dev-server-builder": {
+      "implementation": "./src/builders/dev-server/builder",
+      "schema": "./src/builders/dev-server/schema.json",
+      "description": "dev-server builder"
+    }
+  }
+}
